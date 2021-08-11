@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import uz.eposystems.roomforeignkey.Client
+import uz.eposystems.roomforeignkey.model.Client
 
 @Dao
 interface ClientDao {
@@ -17,4 +17,8 @@ interface ClientDao {
 
     @Delete
     suspend fun deleteClient(client: Client)
+
+    @Query("SELECT clientId FROM client WHERE isActive == 1 LIMIT 1")
+    suspend fun getActive(): Int
+
 }

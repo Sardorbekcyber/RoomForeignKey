@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/6monthsToMiddle/RoomForeignKeyExample/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/6monthsToMiddle/RoomForeignKeyExample/app/src/main/res/layout/recycler_client_item.xml" value="0.225" />
+        <entry key="..\:/6monthsToMiddle/RoomForeignKeyExample/app/src/main/res/layout/recycler_order_item.xml" value="0.225" />
       </map>
     </option>
   </component>
